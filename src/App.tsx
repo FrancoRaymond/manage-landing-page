@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar"
 function App() {
 
   return (
-    <div className="p-40 h-screen bg-gray-100 w-full">
+    <div className="bg-gray-100 w-full">
+      <Navbar />
    
     </div>
   )
