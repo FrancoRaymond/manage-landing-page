@@ -5,3 +5,10 @@ body{
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.mobileMenu{
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+}
+nav ul li{
+  @apply hover:text-gray-500 transition duration-300
+}
