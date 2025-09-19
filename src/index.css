@@ -12,3 +12,8 @@ body{
 nav ul li{
   @apply hover:text-gray-500 transition duration-300
 }
+
+.homeSection{
+  background: url('../assets/images/bg-simplify-section-mobile.svg') no-repeat center center / cover;
+  
+}
