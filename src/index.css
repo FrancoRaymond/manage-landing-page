@@ -4,21 +4,14 @@ body{
   font-family: "Be Vietnam Pro", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
-
 .mobileMenu{
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
 }
 nav ul li{
   @apply hover:text-gray-500 transition duration-300
 }
-
-.homeSection{
-  background: url('../assets/images/bg-simplify-section-mobile.svg') no-repeat center center / cover;
-}
-
-/* index.css */
 .scrollbar-hide {
-
-  scrollbar-width: none;     /* Firefox */
+  scrollbar-width: none;
 }

@@ -9,14 +9,14 @@ import yt from '../assets/images/icon-youtube.svg'
 const Footer = () => {
   return (
     <div>
-        <div className="bg-[#f25f3a] gap-10 py-10 flex justify-between items-center px-2.5 sm:px-5 md:px-10 lg:px-24">
+        <div className="bg-[#f25f3a] bg-[url('./assets/images/bg-simplify-section-mobile.svg')] bg-no-repeat bg-auto gap-10 py-10 flex justify-between items-center px-2.5 sm:px-5 md:px-10 lg:px-24">
             <h2 className="text-white text-2xl font-semibold md:text-3xl">Simplify how your teams works</h2>
             <button className="text-sm text-nowrap mx-auto sm:mx-0 text-[#f25f3a] rounded-3xl py-2 px-4 bg-white w-fit">Get Started</button>
         </div>
         <div className="px-2.5 sm:px-5 md:px-10 lg:px-24 py-10 bg-black md:grid md:grid-cols-4">
             <div className='flex flex-col items-center md:items-start'>
                 <img src={logo} alt="" className='w-32'/>
-                <div className='flex gap-2 mt-10 md:mt-0 md:justify-between md:mt-auto'>
+                <div className='flex gap-2 mt-10  md:justify-between md:mt-auto'>
                     <img src={fb} alt="" />
                     <img src={yt} alt="" />
                     <img src={twitter} alt="" />
